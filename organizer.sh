@@ -15,4 +15,7 @@ echo "assignment,score,weight,group" > grades.csv
 echo "Fresh grades.csv created."
 
 # 4. Log execution
+echo "$(date): Organizer script startedo
+." >> organizer.log
+python grade-evaluator.py
 echo "$(date): Organizer script executed successfully." >> organizer.log
